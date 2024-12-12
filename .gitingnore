@@ -1,2 +1,39 @@
-./backend/node_modules/*
-./myapp/node_modules/*
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+backend/node_modules/
+myapp/node_modules/
+
+# Expo
+myapp/.expo/
+myapp/dist/
+myapp/web-build/
+myapp/expo-env.d.ts
+
+# Native
+myapp/*.orig.*
+myapp/*.jks
+myapp/*.p8
+myapp/*.p12
+myapp/*.key
+myapp/*.mobileprovision
+
+# Metro
+myapp/.metro-health-check*
+
+# debug
+myapp/npm-debug.*
+myapp/yarn-debug.*
+myapp/yarn-error.*
+
+# macOS
+myapp/.DS_Store
+myapp/*.pem
+
+# local env files
+myapp/.env*.local
+
+myapp/# typescript
+myapp/*.tsbuildinfo
+
+myapp/app-example
